@@ -4,10 +4,11 @@ This repository provides a framework for building your own trading bot using Pyt
 The framework is designed to be open-source and extensible, allowing users to build upon it and tailor it to their specific needs.
 
 ## Included Files
-ccxt_utils.py: A collection of boilerplate methods that simplify the use of CCXT for fetching and processing trading data.
-indicators.py: A set of implemented trading indicators that accept a Pandas DataFrame as input.
-oms_logger.py: A rudimentary Order Management System (OMS) logger to record all transactions.
-BotTemplate.py: A fully functional bot template that provides basic bot functionality, but does not execute any transactions.
+- ccxt_utils.py: A collection of boilerplate methods that simplify the use of CCXT for fetching and processing trading data.
+- indicators.py: A set of implemented trading indicators that accept a Pandas DataFrame as input.
+- oms_logger.py: A rudimentary Order Management System (OMS) logger to record all transactions.
+- BotTemplate.py: A fully functional bot template that provides basic bot functionality, but does not execute any transactions.
+  
 ## Usage
 To use this framework, simply clone the repository and start building your own trading bot using the provided helper files. Modify and extend the code as needed to create your own customized trading bot.
 
