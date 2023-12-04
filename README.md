@@ -10,7 +10,7 @@ The framework is designed to be open-source and extensible, allowing users to bu
 - BotTemplate.py: A fully functional bot template that provides basic bot functionality, but does not execute any transactions.
 
 ## Exclude File
-In order to keep your API keys secure, you need to create a separate configuration file named dontshare_config.py. This file will store your API keys for the exchanges you want to use with the trading bot. Make sure not to include this file in your public repository, as it contains sensitive information.
+In order to keep your API keys secure, you need to create a separate configuration file named dontshare_config.py. This file will store your API keys for the exchanges you want to use with the trading bot. Make sure not to include this file in your public repository, as it contains sensitive information. The trading bot will not run if the dontshare_config.py file is not created and properly configured with your API keys. Make sure to follow the steps above to set up the file before running the bot.
 
 ### Creating the dontshare_config.py file
 Create a new file named dontshare_config.py in the root directory of your project.
@@ -23,8 +23,6 @@ BYBIT_SECRET_KEY='<insert your secret here>
 Replace <insert your key here> and <insert your secret here> with your actual API key and secret key for each exchange.
 
 Save the file and make sure it is not included in your public repository. You can add it to your .gitignore file to prevent it from being accidentally committed.
-### Important Note
-The trading bot will not run if the dontshare_config.py file is not created and properly configured with your API keys. Make sure to follow the steps above to set up the file before running the bot.
   
 ## Usage
 To use this framework, simply clone the repository and start building your own trading bot using the provided helper files. Modify and extend the code as needed to create your own customized trading bot.
