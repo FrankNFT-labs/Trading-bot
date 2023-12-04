@@ -15,10 +15,11 @@ In order to keep your API keys secure, you need to create a separate configurati
 ### Creating the dontshare_config.py file
 Create a new file named dontshare_config.py in the root directory of your project.
 Add your API keys for the exchanges you want to use, following the format below:
-'BYBIT_API_KEY='<insert your key here>
+```
+BYBIT_API_KEY='<insert your key here>
 BYBIT_SECRET_KEY='<insert your secret here>
 #Add other keys for exchanges you like to use
-'
+```
 Replace <insert your key here> and <insert your secret here> with your actual API key and secret key for each exchange.
 
 Save the file and make sure it is not included in your public repository. You can add it to your .gitignore file to prevent it from being accidentally committed.
