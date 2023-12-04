@@ -9,7 +9,7 @@ The framework is designed to be open-source and extensible, allowing users to bu
 - oms_logger.py: A rudimentary Order Management System (OMS) logger to record all transactions.
 - BotTemplate.py: A fully functional bot template that provides basic bot functionality, but does not execute any transactions.
 
-## Exclude File
+## Excluded File
 In order to keep your API keys secure, you need to create a separate configuration file named 
 - dontshare_config.py.
 
